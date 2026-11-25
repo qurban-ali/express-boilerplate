@@ -20,47 +20,47 @@ A robust Express.js API boilerplate with MongoDB integration, JWT authentication
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js 18 or higher (use a currently supported LTS release)
 - MongoDB
 - npm or yarn
 
 ### Installation
 
 1. Clone the repository:
-\`\`\`bash
-git clone [your-repository-url]
+```bash
+git clone https://github.com/qurban-ali/express-boilerplate.git
 cd express-boilerplate
-\`\`\`
+```
 
 2. Install dependencies:
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 3. Create environment variables:
-\`\`\`bash
+```bash
 cp .env.example .env
-\`\`\`
+```
 Then edit .env with your configuration.
 
 4. Start the server:
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 
 ### API Documentation
 
 Once the server is running, you can access the Swagger documentation at:
-\`http://localhost:3030/api-docs\`
+`http://localhost:3030/api-docs`
 
 ## Available Scripts
 
-- \`npm start\`: Start the server
-- \`npm run dev\`: Start the server in development mode with nodemon
+- `npm start`: Start the server
+- `npm run dev`: Start the server in development mode with nodemon
 
 ## Project Structure
 
-\`\`\`
+```
 src/
 ├── config/         # Configuration files
 ├── controllers/    # Route controllers
@@ -71,7 +71,7 @@ src/
 ├── services/      # Business logic
 ├── utils/         # Utilities and helpers
 └── validators/    # Request validators
-\`\`\`
+```
 
 ## License
 
